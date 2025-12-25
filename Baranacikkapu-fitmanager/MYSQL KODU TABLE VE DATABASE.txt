@@ -1,0 +1,18 @@
+Hocam mysql-connector-j-8.3.0 kullanmanız lazım ben onu kullandım yoksa save yaptığınızda kaydetmez memberdetails formu.
+CREATE DATABASE gym;
+USE gym;
+
+CREATE TABLE member (
+    memberId INT PRIMARY KEY,
+    name VARCHAR(50),
+    surname VARCHAR(50),
+    gender VARCHAR(10),
+    height DOUBLE,
+    weight DOUBLE,
+    bmi DOUBLE,
+    cardOwner VARCHAR(50),
+    cardBrand VARCHAR(20),
+    cardNumber VARCHAR(20),
+    expirationDate VARCHAR(7),
+    cvv VARCHAR(4)
+);
