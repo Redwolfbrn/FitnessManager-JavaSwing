@@ -1,4 +1,4 @@
-Hocam mysql-connector-j-8.3.0 kullanmanız lazım ben onu kullandım yoksa save yaptığınızda kaydetmez memberdetails formu.
+mysql-connector-j-8.3.0 kullanmanız lazım ben onu kullandım yoksa save yaptığınızda kaydetmez memberdetails formu.
 CREATE DATABASE gym;
 USE gym;
 
@@ -16,3 +16,4 @@ CREATE TABLE member (
     expirationDate VARCHAR(7),
     cvv VARCHAR(4)
 );
+
